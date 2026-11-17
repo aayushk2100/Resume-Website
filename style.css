@@ -158,7 +158,7 @@ ul {
   line-height: 1.1;
 }
 
-.profile-card > p {
+#profile-description {
   margin-top: 8px;
   font-size: 13px;
   color: #5e6c54;
@@ -425,7 +425,7 @@ ul {
 }
 
 .price-time strong {
-  color: #557b2c;
+  color: #63a100;
 }
 
 .more-link {
@@ -476,4 +476,10 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 15px 25px;
+}
+.contact-links a {
+  text-decoration: underline;
+}
+.contact-links a:hover {
+  color: #789d36;
 }
